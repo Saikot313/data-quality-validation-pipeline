@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-07-13T22:09:15",
+  "total_records": 891,
+  "completeness_before_pct": 91.9,
+  "completeness_after_pct": 100.0,
+  "exact_duplicates_found": 0,
+  "near_duplicate_pairs_flagged": 5,
+  "fields_imputed": [
+    {
+      "column": "Age",
+      "rule": "median age per Pclass",
+      "rows_imputed": 177
+    },
+    {
+      "column": "Embarked",
+      "rule": "mode fill ('s')",
+      "rows_imputed": 2
+    },
+    {
+      "column": "Cabin",
+      "rule": "flagged as 'unknown' (too sparse to impute \u2014 77% missing)",
+      "rows_imputed": 687
+    }
+  ],
+  "records_with_imputed_age": 177,
+  "records_with_imputed_embarked": 2,
+  "records_missing_cabin": 687
+}

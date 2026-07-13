@@ -1,0 +1,7 @@
+,dtype,missing_count,missing_pct,unique_values,complete_pct
+Age,float64,0,0.0,88,100.0
+Cabin,str,0,0.0,148,100.0
+Embarked,str,0,0.0,3,100.0
+Sex,str,0,0.0,2,100.0
+Name,str,0,0.0,891,100.0
+Ticket,str,0,0.0,681,100.0
